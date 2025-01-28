@@ -1,0 +1,18 @@
+.table1
+{
+    letter-spacing: 1.5px;
+    font-size:40px;
+    padding-top: 20px;
+    text-align: center ;
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+    border-bottom: #000000;
+    border-style: solid;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    background: rgb(2,0,36);
+    background: linear-gradient(34deg, rgba(2,0,36,1) 0%, rgba(179,177,33,0.9669117647058824) 26%, rgba(216,217,217,1) 100%);    
+}
+ 
