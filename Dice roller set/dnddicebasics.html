@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dnddicebasics</title>
+    <link rel="stylesheet" href="css/dnddicebasicsbootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">D&D Dice Basics</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="dice roll.html">Dice Roller</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dnddicebasics.html">DND Dice Basics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dndbeyondsponsor.html">Visit DND BEYOND</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comingsoon.html">Coming Soon</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="d20.png" alt="20-sided Die">
+                    <div class="card-body">
+                        <button class="btn btn-primary" onclick="popup()">20 Sided Die</button>
+                    </div>
+                </div>
+            </div>
+          
+
+<div class="col-6 col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="d12.png" alt="12-sided Die">
+        <div class="card-body">
+            <button class="btn btn-primary" onclick="popup3()">12 Sided Die</button>
+        </div>
+    </div>
+</div>
+
+<div class="col-6 col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="d10.png" alt="10-sided Die">
+        <div class="card-body">
+            <button class="btn btn-primary" onclick="popup2()">10 Sided Die</button>
+        </div>
+    </div>
+</div>
+<div class="col-6 col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="d8.png" alt="8-sided Die">
+        <div class="card-body">
+            <button class="btn btn-primary" onclick="popup4()">8 Sided Die</button>
+        </div>
+    </div>
+</div>
+<div class="col-6 col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="d6.png" alt="6-sided Die">
+        <div class="card-body">
+            <button class="btn btn-primary" onclick="popup5()">6 Sided Die</button>
+        </div>
+    </div>
+</div>
+<div class="col-6 col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="d4.png" alt="4-sided Die">
+        <div class="card-body">
+            <button class="btn btn-primary" onclick="popup6()">4 Sided Die</button>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        function popup() {
+            alert("A polyhedral die which has 20 sides, commonly used in a lot of situations. You are going to see this die often.");
+        }
+        function popup2() {
+            alert("A polyhedral die which has 10 sides, generally also used for damage calculation of attacks and spells");
+        }
+        function popup3() {
+            alert("A polyhedral die which has 12 sides, generally used for damage calculation of attacks and spells");
+        }
+        function popup4() {
+            alert("A polyhedral die which has 8 sides, used for minor spell damage calculation and consequential happenstance");
+        }
+        function popup5() {
+            alert("A polyhedral die which has 6 sides, generally used for the majority of attacks and spells damage calculation as well as consequential happenstance");
+        }
+        function popup6() {
+            alert("A polyhedral die which has 4 sides, used for attacks and spells that deal minor damage and consequential happenstance");
+        }
+    </script>
+</body>
+
+</html>

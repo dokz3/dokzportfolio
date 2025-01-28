@@ -1,0 +1,80 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url('woodbg.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #495057;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #2fd35d; 
+}
+
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+#dice {
+    position: relative;
+    text-align: center;
+}
+
+#diceImage {
+    max-width: 90%;
+    position: relative; 
+}
+
+.dice-result {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+.btn-primary {
+    background-color: #027e16;
+    border: 1px solid #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #b91a1a;
+    border: 1px solid #0056b3;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.mt-3 {
+    margin-top: 1.5rem;
+}
